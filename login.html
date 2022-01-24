@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="login-style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <!-- LogIn Box -->
+            <div class="information">
+
+                <!-- logo and title -->
+                <div>
+                    <!-- logo -->
+                    <div class="logo">
+                        <img src="logo.png" alt="">
+                    </div>
+
+                    <!-- title -->
+                    <div>
+                        <p class="title">Login</p>
+                        <p class="sub-title">See your growth and get consulting support!</p>
+                    </div>
+                </div>
+
+                <!-- signin with google & or option -->
+                <div>
+                    <!-- signup with google button -->
+                    <button class="google-login-button"><img class="google-logo" src="google.png" alt="Google"> Sign in with Google</button>
+
+                    <!-- or with email -->
+                    <div class="break-line"><span class="horizontal-line"></span><span class="break-line-text">or Sign up with Email</span><span class="horizontal-line"></span></div>
+                </div>
+
+                <!-- all labels, input box & checkbox -->
+                <div class="all-input">
+                    <!-- Email -->
+                    <div class="email-input">
+                        <label class="label-font" for="email">Email*</label>
+                        <input class="input-box" id="email" name="email" type="email" placeholder="mail@website.com" required />
+                    </div>
+                    
+                    <!-- Password -->
+                    <div class="password-input">
+                        <label class="label-font" for="password">Password*</label> 
+                        <input class="input-box" id="password" name="password" type="password" placeholder="Min. 8 character" required />
+                    </div>
+                    
+                    <!-- Check box -->
+                    <div class="checkbox-forgot">
+                        <label class="digital-signature">Remember me
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <a href="">Forgot password?</a>
+                    </div>
+                </div>
+                
+
+                <!-- Log In Button -->
+                <button class="login-button">Login</button>
+
+                <div class="link">
+                    <!-- hyperlink for Login page -->
+                    <p class="link">Not registered yet? <a href="index.html">Create an Account</a></p>
+                </div>
+                <div class="copyright">
+                    <!-- copyright -->
+                    <p style="color: #c5c3cc;">©2020 Felix all rights reserved</p>
+                </div>
+
+            </div>
+            <!-- Image Slider Box -->
+            <div id="slide-box" class="first-slide">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
